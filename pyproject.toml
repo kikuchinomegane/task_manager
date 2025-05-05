@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Kohei Kikuchi"]
 readme = "README.md"
-packages = [{include = "task_manager"}]
+packages = [{include = "task_manager", from="src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
