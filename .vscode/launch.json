@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Poetry: Task Manager CLI",
+        "type": "python",
+        "request": "launch",
+        "module": "task_manager.main",
+        "justMyCode": true,
+        "args": ["add", "--title", "会社に行く", "--due_date", "2025-05-07"],
+        "env": {
+          "PYTHONPATH": "src"
+        },
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  

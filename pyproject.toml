@@ -16,6 +16,9 @@ pytest = "^8.3.5"
 ruff = "^0.11.8"
 mypy = "^1.15.0"
 
+[tool.poetry.scripts]
+task = "task_manager.main:main"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
